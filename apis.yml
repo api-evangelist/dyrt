@@ -1,7 +1,30 @@
 aid: dyrt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dyrt.png
 name: Dyrt
-description: Dyrt is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The Dyrt is a camping discovery and booking platform for the United States,
+  covering public and private campgrounds, RV parks, glamping, cabins, and free
+  dispersed camping. It is a community-driven service built on user-contributed
+  reviews, photos, and campground details, layered with trip-planning tools,
+  real-time availability, and direct booking for many locations. Its Dyrt PRO
+  subscription adds offline maps, cancellation ("Scan Canceled Sites") alerts,
+  curated free-camping data, and discounts at 1,000+ campgrounds. The Dyrt also
+  offers free listings, dashboards, analytics, and marketing tools for campground
+  owners. It has been featured by the New York Times, NPR, National Geographic,
+  and Forbes. Surfaced as a Techstars portfolio company and added to the API
+  Evangelist network; The Dyrt publishes a consumer web/mobile product and does
+  not expose a documented public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/dyrt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Camping
+- Campgrounds
+- RV
+- Travel
+- Outdoor Recreation
+- Reviews
+- Booking
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dyrt-domain-security.yml
 - type: Website
-  url: https://dyrt.co/
+  url: https://thedyrt.com/
+- type: About
+  url: https://thedyrt.com/about/us
+- type: Support
+  url: https://support.thedyrt.com/hc/en-us
+- type: Blog
+  url: https://thedyrt.com/magazine/
+- type: Pricing
+  url: https://thedyrt.com/pro
+- type: Login
+  url: https://thedyrt.com/users/sign_in
+- type: TermsOfService
+  url: https://thedyrt.com/about/tacos
+- type: PrivacyPolicy
+  url: https://thedyrt.com/about/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
