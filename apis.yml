@@ -45,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Camping
@@ -63,6 +63,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://thedyrt.com/press/
+  type: Blog
+- url: https://thedyrt.com/magazine/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/dyrt-domain-security.yml
 - type: Website
